@@ -20,7 +20,8 @@ Screenshots:
 - On Query Parameters:
   It's important to have the correct query parameters in order to request the data you want or have it organized in the way you want. Case in point, it took me a while to find the right parameters to have temperatures shown in Imperial units (Fahrenheit). By default all temperatures were shown in Metric (Celsius). It is also important to note that entering the wrong parameters can result in an error. While figuring out how to request only daily forecasts, I got an error saying that the query parameters I'd entered were not valid. (screenshot below). Note the timesteps value is set to 7d. I was trying to get a 7-day forecast, but was requesting in the wrong format. In order to get a daily forecast, I had to enter 1d in timesteps.
 
-![image](https://github.com/rja87sd/postman-reflection/assets/145504216/548c22d0-0d7a-4147-9c9f-cec056998088)
+![image](https://github.com/rja87sd/postman-reflection/assets/145504216/6120949a-baf5-4b1d-9897-cb1d70d7a801)
+
 
 
 
