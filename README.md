@@ -25,9 +25,9 @@ Screenshots:
 
 ## Day 3 Assignment
 ### Create an Environment for the Weather API.
--- From the My Workspace tab, click on Environments in the lefthand sidebar.
--- Click the + sign above Globals.
--- Change the name of the New Environment to 'Weather API Environment'.
+- From the My Workspace tab, click on Environments in the lefthand sidebar.
+- Click the + sign above Globals.
+- Change the name of the New Environment to 'Weather API Environment'.
 ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/dc644443-a662-4755-a25d-8409d533c01b)
 
 ### Add a variable for the API key, e.g., name it weatherApiKey.
