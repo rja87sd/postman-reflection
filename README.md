@@ -23,6 +23,38 @@ Screenshots:
 ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/6120949a-baf5-4b1d-9897-cb1d70d7a801)
 
 
+## Day 3 Assignment
+- Create an Environment for the Weather API.
+-- From the My Workspace tab, click on Environments in the lefthand sidebar.
+-- Click the + sign above Globals.
+-- Change the name of the New Environment to 'Weather API Environment'.
+![image](https://github.com/rja87sd/postman-reflection/assets/145504216/dc644443-a662-4755-a25d-8409d533c01b)
 
+-Add a variable for the API key, e.g., name it weatherApiKey.
+-- In the Weather API Environment tab, click in the text field under 'Variable' and type in 'weatherApiKey'.
+-- Under 'Type', click the dropdown box and select 'secret'.
+-- Under 'Initial Value', click the empty text field and paste your API Key value.
+-- Under 'Current Value', click the empty text field. It should automatically populate with hidden text representing your API Key. If not, paste your API Key into the text field.
+-- Click 'Save'.
+![image](https://github.com/rja87sd/postman-reflection/assets/145504216/5a5302a2-1fd2-4636-9ab6-0c993adfada7)
+
+- Create a new request in the "Weather API Collection".
+-- Click 'Collections' in the lefthand sidebar.
+-- Click the + sign up at the top, just under 'My Workspace'.
+-- Rename the new Collection.
+-- In the sidebar, click the Collection name and click the three dots to bring up a menu of actions.
+-- Click 'Add Request'.
+-- Rename the new Request.
+  
+- Use the environment variable for the API key in the request.
+-- Ensure the Weather API Environment is selected as the active environment by clicking the dropdown menu in the top right of the screen.
+-- Click 'Weather API Environment'.
+-- Input the key 'apikey' with value '{{weatherApiKey}}'
+  
+- Choose an endpoint provided by the weather API and set necessary parameters, such as location.
+-- Set 'location', 'timesteps', 'units', 'timezone' keys with their respective values.
+-- Click 'Send'.
+
+![image](https://github.com/rja87sd/postman-reflection/assets/145504216/24102cbc-4cce-4353-a4a8-409a6c73d269)
 
 
