@@ -58,3 +58,52 @@ Screenshots:
 ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/24102cbc-4cce-4353-a4a8-409a6c73d269)
 
 
+## Day 4 Assignment
+### Set up the Request in Postman.
+- In the lefthand sidebar, click the Collections tab.
+- Click the + sign to create a new collection and name it.
+- Click the Environments tab.
+- Click the + sign to create a new environment and name it.
+- ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/5e33c0c3-5576-40cd-a53d-d33351e11946)
+- ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/818743d8-e80f-4e71-9dd4-bb807b0d495d)
+- In the new Environment, create a new variable.
+- Set the variable name to 'token'.
+- Click the dropdown menu in the next field to set it as 'secret'.
+- Copy your Bearer Key from GitHub and paste it into the 'Initial Value' field.
+- Click 'Save'.
+- ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/77e2b7ae-ef4d-4bdf-8f26-6eb18dac866b)
+- In the sidebar, navigate back to the Collections tab.
+- Click on the name of your Collection.
+- In the main part of the window, click 'Authentication'.
+- Click the dropdown menu next to 'Type' and set it to Bearer Token.
+- In the text field, type '{{token}}'.
+- In the upper righthand corner of the window, click the dropdown menu that says 'No Environment' and set it to the Environment where you created the variable for your token.
+- Click 'Save'.
+- ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/cc034c51-6901-499a-87a9-4052eb9a013a)
+- In the main part of the window, click 'Variables'.
+- Create a new variable called 'baseUrl' and set its initial value to 'https://api.github.com'.
+- Click 'Save'.
+- ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/3283634e-9a73-4b9d-a591-0866b1cae036)
+- In the sidebar, hover your cursor over the name of your Collection and click the three dots to open a menu.
+- Click 'Add Request'.
+- Ensure it is a GET request.
+- Click 'Save'.
+- Click 'Send'
+- ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/d043227f-cdb5-4f50-92ec-cffcbd7ed279)
+- Now change the request type to POST.
+- Change the URL to '{{baseUrl}}/user/repos'.
+- Under the URL, click the Body tab.
+- Check the 'raw' checkbox.
+- In the text field below, enter the following raw data (not including the pre element):
+  <pre>{
+    "name": "github-post-request",
+    "private": "false",
+    "description": "Day 4 Assignment"
+  }</pre>
+- Click 'Save'.
+- Click 'Send'.
+- ![image](https://github.com/rja87sd/postman-reflection/assets/145504216/82d687d6-945a-4a66-a956-0bfdef897b95)
+
+
+  
+
